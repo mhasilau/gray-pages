@@ -1,0 +1,35 @@
+.wrapper {
+  position: relative;
+  min-width: 1000px;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //align-content: stretch;
+
+  min-height: 100%;
+
+  .content {
+    display: flex;
+    flex: auto;
+    margin-bottom: 50px;
+
+    .navigation {
+      width: 15%;
+    }
+
+    .profile {
+      width: 30%;
+    }
+
+    app-main-page {
+      width: 100%;
+    }
+
+  }
+
+  app-footer {
+  }
+}
