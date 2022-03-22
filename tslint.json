@@ -1,8 +1,14 @@
 {
-  "extends": ["tslint:recommended", "tslint-plugin-prettier", "tslint-config-prettier"],
+  "extends": [
+    "tslint:recommended",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier",
+    "codelyzer"
+  ],
   "rulesDirectory": ["codelyzer", "node_modules/@nrwl/workspace/src/tslint"],
   "rules": {
     "array-type": false,
+    "prettier": true,
     "arrow-parens": false,
     "arrow-return-shorthand": true,
     "callable-types": true,

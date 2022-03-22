@@ -7,8 +7,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //align-content: stretch;
-
   min-height: 100%;
 
   .content {
@@ -27,9 +25,5 @@
     app-main-page {
       width: 100%;
     }
-
-  }
-
-  app-footer {
   }
 }
