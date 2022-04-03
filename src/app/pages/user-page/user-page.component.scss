@@ -1,18 +1,24 @@
 .content {
   display: flex;
   flex: auto;
-  margin-bottom: 50px;
+  min-width: 1000px;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
 
   .navigation {
     width: 15%;
   }
 
   .profile {
-    width: 30%;
+    width: 20%;
   }
 
   .components {
-    width: 100%;
+    width: 30%;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
   }
 
 }

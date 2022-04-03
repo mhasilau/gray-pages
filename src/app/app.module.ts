@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { UserPageModule } from "./pages/user-page/user-page.module";
 import { HeaderModule } from "./components/header/header.module";
 import { FooterModule } from "./components/footer/footer.module";
 import { AppRoutingModule } from "./app-routing.module";
-import { ContentModule } from "./components/content/content.module";
 import { SignInModule } from "./pages/sign-in/sign-in.module";
+
 
 @NgModule({
   declarations: [
@@ -19,8 +20,8 @@ import { SignInModule } from "./pages/sign-in/sign-in.module";
     HeaderModule,
     FooterModule,
     AppRoutingModule,
-    ContentModule,
-    SignInModule
+    SignInModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
