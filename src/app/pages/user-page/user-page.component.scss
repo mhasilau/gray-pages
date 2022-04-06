@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex: auto;
+  min-width: 1000px;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .navigation {
+    width: 15%;
+  }
+
+  .profile {
+    width: 20%;
+  }
+
+  .components {
+    width: 30%;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+}
